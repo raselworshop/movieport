@@ -1,0 +1,30 @@
+/* Light Theme */
+html[data-theme='light'] {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Dark Theme */
+  html[data-theme='dark'] {
+    --background-color: #121212;
+    --text-color: #ffffff;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
